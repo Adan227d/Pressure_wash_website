@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AA Cleaning/Maintenance Co.</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f8f9fa; color: #333; }
+    header { background: #0d6efd; color: white; padding: 1.5rem; text-align: center; position: relative; }
+    header img.logo {
+      display: block;
+      max-width: 250px;       /* increased size */
+      margin: 0 auto 1rem;    /* center horizontally, margin below */
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* subtle shadow */
+      position: static;       /* no absolute positioning */
+    }
+    nav { display: flex; justify-content: center; background: #0056b3; }
+    nav a { color: white; padding: 1rem; text-decoration: none; }
+    nav a:hover { background: #003f7f; }
+    .container { padding: 2rem; max-width: 1000px; margin: auto; }
+    .services, .contact, .about, .gallery { margin-bottom: 2rem; }
+    .service-item { background: white; margin: 1rem 0; padding: 1rem; border-left: 5px solid #0d6efd; }
+    .before-after { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem; }
+    .before-after a { flex: 1; min-width: 200px; text-align: center; text-decoration: none; }
+    .before-after img { width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s; }
+    .before-after img:hover { transform: scale(1.05); }
+    footer { background: #0d6efd; color: white; text-align: center; padding: 1rem; }
+    .cta { background: #ffc107; padding: 1rem; text-align: center; font-size: 1.2rem; margin-top: 2rem; }
+    @media (max-width: 600px) {
+      nav { flex-direction: column; }
+      /* Removed position override since image isn't absolute anymore */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Screenshot 2025-07-09 071538.png" alt="AA Cleaning Logo" class="logo">
+    <h1>AA Cleaning/Maintenance Co.</h1>
+    <p>Pressure Washing | Car Detailing | Yard Maintenance</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>AA Cleaning/Maintenance Co. is your one-stop solution for exterior home cleaning, auto detailing, and yard care. We take pride in making your home and vehicles look their best, using quality tools and hard work.</p>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <div class="service-item">
+        <h3>Pressure Washing</h3>
+        <p>We clean dirty concrete driveways, patios, fences, and house exteriors using professional-grade equipment.</p>
+        <div class="before-after">
+          <a href="https://via.placeholder.com/800x600?text=Before+Pressure+Washing" target="_blank">
+            <img src="https://via.placeholder.com/300x200?text=Before+Pressure+Wash" alt="Before Pressure Wash">
+            <p>Before</p>
+          </a>
+          <a href="https://via.placeholder.com/800x600?text=After+Pressure+Washing" target="_blank">
+            <img src="https://via.placeholder.com/300x200?text=After+Pressure+Wash" alt="After Pressure Wash">
+            <p>After</p>
+          </a>
+        </div>
+      </div>
+      <div class="service-item">
+        <h3>Car Detailing</h3>
+        <p>Deep interior and exterior cleaning for your vehicle—vacuuming, shampooing, waxing, and more.</p>
+        <div class="before-after">
+          <a href="https://via.placeholder.com/800x600?text=Before+Car+Detail" target="_blank">
+            <img src="https://via.placeholder.com/300x200?text=Before+Car+Detail" alt="Before Car Detail">
+            <p>Before</p>
+          </a>
+          <a href="https://via.placeholder.com/800x600?text=After+Car+Detail" target="_blank">
+            <img src="https://via.placeholder.com/300x200?text=After+Car+Detail" alt="After Car Detail">
+            <p>After</p>
+          </a>
+        </div>
+      </div>
+      <div class="service-item">
+        <h3>Yard Work</h3>
+        <p>Lawn mowing, edging, and light yard cleanup to keep your property looking sharp.</p>
+        <div class="before-after">
+          <a href="https://via.placeholder.com/800x600?text=Before+Yard+Work" target="_blank">
+            <img src="https://via.placeholder.com/300x200?text=Before+Yard+Work" alt="Before Yard Work">
+            <p>Before</p>
+          </a>
+          <a href="https://via.placeholder.com/800x600?text=After+Yard+Work" target="_blank">
+            <img src="https://via.placeholder.com/300x200?text=After+Yard+Work" alt="After Yard Work">
+            <p>After</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2>Gallery</h2>
+      <p>Browse through a few of our past projects to see the difference we make!</p>
+      <div class="before-after">
+        <a href="https://via.placeholder.com/800x600?text=Before+1" target="_blank">
+          <img src="https://via.placeholder.com/300x200?text=Before+1" alt="Before 1" />
+        </a>
+        <a href="https://via.placeholder.com/800x600?text=After+1" target="_blank">
+          <img src="https://via.placeholder.com/300x200?text=After+1" alt="After 1" />
+        </a>
+      </div>
+    </section>
+
+    <div class="cta">
+      <p>Ready for a clean start? <strong>Call or text us today for a free quote!</strong></p>
+    </div>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> 480-886-8437</p>
+      <p><strong>Email:</strong> cleanpro@example.com</p>
+      <p><strong>Service Area:</strong> Phoenix, AZ</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 AA Cleaning/Maintenance Co. All rights reserved.</p>
+  </footer>
+</body>
+</html>
